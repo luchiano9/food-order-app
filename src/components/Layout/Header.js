@@ -11,7 +11,7 @@ const Header = (props) => {
 
             <h1>React meals</h1>
           
-            <HeaderCartButton/>
+            <HeaderCartButton onClick={props.onShowCart}/>
 
         </header>
 
